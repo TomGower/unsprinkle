@@ -54,9 +54,9 @@ const Tags = styled.ul`
   display: flex;
   flex-wrap: nowrap;
   gap: 8px;
-  overflow: hidden;
+  /* overflow: hidden; */
   /* text-overflow: ellipsis; */
-  /* white-space: nowrap; */
+  white-space: nowrap;
 
   li:last-child {
     overflow: hidden;
