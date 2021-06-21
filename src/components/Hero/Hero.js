@@ -21,9 +21,12 @@ const Hero = () => {
             /images/hero-img@3x.jpg 3x
           "
         />
-        <img alt="" src="/images/hero-img.jpg" />
+        <img
+          alt="A header representative of the kinds of images on Unsprinkle (cat with black background)"
+          src="/images/hero-img.jpg"
+        />
       </HeroImage>
-      <Swoop src="/swoop.svg" />
+      <Swoop alt="" src="/swoop.svg" />
     </Wrapper>
   );
 };
